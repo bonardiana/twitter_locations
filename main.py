@@ -42,7 +42,7 @@ def friends_locations(js):
     """
     friends = dict()
     for u in js['users']:
-        if 'location' not in u or not u['location']:
+        if 'location' not in u :
             print('   * No location found')
         else:
             if u['location'] not in friends:
