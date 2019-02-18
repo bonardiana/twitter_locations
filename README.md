@@ -7,3 +7,8 @@ Creates a web - map with locations of friends of user's twitter account
 4. Enjoy the web-map
 ## Web- map
 Web map conteins points with locations of your friends and theirs nicknames poped up due to cliking.
+## Requimets
+You need to have installed:
+- flask
+- follium
+- geopy
